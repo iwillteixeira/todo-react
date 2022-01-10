@@ -2,7 +2,7 @@ import React from 'react';
 import TodosList from './TodosList';
 
 class TodoContainer extends React.Component {
-  state = {
+  items = {
     todos: [
       {
         id: 1,
@@ -20,11 +20,11 @@ class TodoContainer extends React.Component {
         completed: false,
       },
     ],
-  };
+  }
 
   render() {
     return (
-      <TodosList todo={this.state.todos} />
+      <TodosList todo={this.items.todos} />
     );
   }
 }
