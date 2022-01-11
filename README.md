@@ -16,7 +16,7 @@ Main goal of this milestone was working with React components and events creatin
 
 ### Live version
 
-- live: [Javascript-Capstone](https://iwillteixeira.github.io/todo-react/)
+- live: [todo-react](https://iwillteixeira.github.io/todo-react/)
 
 ## Getting Started
 
