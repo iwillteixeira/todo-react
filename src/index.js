@@ -1,7 +1,7 @@
-import './scss/style.scss';
 import React from 'react';
 import ReactDom from 'react-dom';
-import TodoContainer from './components/TodoContainer';
+import TodoContainer from './functionBased/components/TodoContainer';
+import './functionBased/app.css';
 
 ReactDom.render(
   <React.StrictMode>
